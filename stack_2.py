@@ -63,6 +63,7 @@ stack1.printstack()
 
 task = 0
 while True:
+    print(" ")
     print("1. Push element")
     print("2. Pop element")
     print("3. View top element")
@@ -84,7 +85,7 @@ while True:
         stack1.printstack()
 
     elif task == "3":
-        viewe = print(f"Top element is: {stack1.peek}" )
+        viewe = print(f"Top element is: {stack1.peek()}" )
 
     elif task == "4":
         print("\nCurrent Stack:", end=" ")
